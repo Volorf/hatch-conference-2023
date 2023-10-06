@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6829606217722608282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6164427364514652192}
+  - component: {fileID: 7071682285767552901}
+  - component: {fileID: 5028091806450457423}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6164427364514652192
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6829606217722608282}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 8, y: 8, z: 8}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 8306467284726410192}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &7071682285767552901
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6829606217722608282}
+  m_Mesh: {fileID: -313668472060253369, guid: 29d022acb0b7ba54baabd608c2116548, type: 3}
+--- !u!23 &5028091806450457423
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6829606217722608282}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 646f2c245a5834141bccb0b010f45ebc, type: 2}
+  - {fileID: 2100000, guid: 646f2c245a5834141bccb0b010f45ebc, type: 2}
+  - {fileID: 2100000, guid: f86ac2616142db54f82811ed9315cd92, type: 2}
+  - {fileID: 2100000, guid: 646f2c245a5834141bccb0b010f45ebc, type: 2}
+  - {fileID: 2100000, guid: 646f2c245a5834141bccb0b010f45ebc, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &6884847670087739415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8306467284726410192}
+  - component: {fileID: 483001124651326738}
+  m_Layer: 0
+  m_Name: Simple Room
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8306467284726410192
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6884847670087739415}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6164427364514652192}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &483001124651326738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6884847670087739415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 214f147e321edad4198a2f8f56f7f1e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentTheme: 1
+  darkBG: {r: 0.13333334, g: 0.13333334, b: 0.13333334, a: 1}
+  lightBG: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+  darkMaterials:
+  - {fileID: 2100000, guid: 06650dbba7d5f2d43b349dfc2d41877e, type: 2}
+  - {fileID: 2100000, guid: 06650dbba7d5f2d43b349dfc2d41877e, type: 2}
+  - {fileID: 2100000, guid: bd813f6c1d8c9404d8a2a47a3d615e4e, type: 2}
+  - {fileID: 2100000, guid: 06650dbba7d5f2d43b349dfc2d41877e, type: 2}
+  - {fileID: 2100000, guid: 06650dbba7d5f2d43b349dfc2d41877e, type: 2}
+  lightMaterials:
+  - {fileID: 2100000, guid: 646f2c245a5834141bccb0b010f45ebc, type: 2}
+  - {fileID: 2100000, guid: 646f2c245a5834141bccb0b010f45ebc, type: 2}
+  - {fileID: 2100000, guid: f86ac2616142db54f82811ed9315cd92, type: 2}
+  - {fileID: 2100000, guid: 646f2c245a5834141bccb0b010f45ebc, type: 2}
+  - {fileID: 2100000, guid: 646f2c245a5834141bccb0b010f45ebc, type: 2}
+  roomRenderer: {fileID: 5028091806450457423}
